@@ -16,7 +16,6 @@ class Storage {
     }
   }
   
-  // Тестування
   const storage = new Storage([
     'Нанітоіди',
     'Пролонгер',
@@ -32,6 +31,6 @@ class Storage {
   
   storage.removeItem('Пролонгер');
   console.table(storage.items); // [ "Нанітоіди", "Залізні жупи", "Антигравітатор", "Дроїд" ]
-  
+
   <script type="module"></script>
   
