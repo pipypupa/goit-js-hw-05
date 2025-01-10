@@ -31,4 +31,4 @@ console.log(builder.value); // '^.^'
 builder.pad("=");
 console.log(builder.value); // '=^.^='
 
-<script type="module"></script>
+// <script type="module"></script>

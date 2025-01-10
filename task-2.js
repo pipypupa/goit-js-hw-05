@@ -10,20 +10,20 @@ class User {
     }
   }
   
-  const mango = new User({
-    name: 'Mango',
+  const ananas = new User({  // Я переназвав змінну щоб не було пробем в консолі тому що вже є така змінна в першому завданні
+    name: 'Ananas',
     age: 2,
     followers: 20,
   });
   
-  mango.getInfo(); // User Mango is 2 years old and has 20 followers
+  ananas.getInfo(); // User Ananas is 2 years old and has 20 followers
   
-  const poly = new User({
-    name: 'Poly',
+  const fakeAnanas = new User({ // Я переназвав змінну щоб не було пробем в консолі тому що вже є така змінна в першому завданні
+    name: 'fakeAnanas',
     age: 3,
     followers: 17,
   });
   
-  poly.getInfo(); // User Poly is 3 years old and has 17 followers
+  fakeAnanas.getInfo(); // User fakeAnanas is 3 years old and has 17 followers
   
-  <script type="module"></script>
+  // <script type="module"></script>

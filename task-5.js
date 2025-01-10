@@ -119,4 +119,4 @@ console.log(mustang.price);
 mustang.price = 4000;
 console.log(mustang.price);
 
-<script type="module"></script>
+// <script type="module"></script>

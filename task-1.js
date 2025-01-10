@@ -24,5 +24,5 @@ class Account {
   
   poly.getInfo(); // Login: Poly, Email: poly@mail.com
 
-  <script type="module"></script>
+  // <script type="module"></script>
   
